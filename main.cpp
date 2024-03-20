@@ -6,7 +6,7 @@ void ex1(), ex2(), ex3(), ex4(), ex5();
 int main(int argc, char **argv)
 {
 	ex1(); ex2(); ex3();  ex4(); ex5();
-	std::cin.get();
+	system("pause");
 	return 0;
 }
 
