@@ -1,13 +1,12 @@
+#include <iostream>
 #include <cmath>
 
 void ex1(), ex2(), ex3(), ex4(), ex5();
 
 int main(int argc, char **argv)
 {
-	// ex1(); ex2();
-	ex3();
-	ex4();
-	ex5();
+	ex1(); ex2(); ex3();  ex4(); ex5();
+	std::cin.get();
 	return 0;
 }
 
